@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Banladesh</title>
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .lexend {
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+
+
+    <!-- Daisy UI,Tailwind CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-background-primary font-lexend">
+    <!--navbar-->
+    <header class="sticky top-0 z-50  ">
+
+        <nav class="bg-[#F9F7F3] text-black p-5">
+
+            <div class="container flex  flex-col md:flex-row justify-between items-center mx-auto gap-4">
+                <div id="blog-button" class="w-full md:w-auto">
+                    <a href="blog.html" class="bg-green-500 hover:bg-green-600 font-bold px-4 py-2 rounded">Blog</a>
+                </div>
+                <div class="flex items-center w-full md:w-auto justify-center md:justify-start">
+                    <img src="./assets/logo.png" alt="Donate Bangladesh" class="w-12 h-12">
+                    <p class="text-lg font-bold ml-2">Donate Bangladesh</p>
+                </div>
+                <div id="account-balance" class="flex items-center w-full md:w-auto justify-center md:justify-end">
+                    <img src="./assets/coin.png" alt="Account Balance" class="w-6 h-6">
+                    <p class="text-right  font-bold ml-2">12800 BDT</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-white">
+        <section class="container mx-auto">
+            <h1 class="collapse-title text-2xl font-bold">
+                <strong>Important FAQ</strong>
+                <i class="fa-regular fa-circle-question"></i>
+            </h1>
+    
+            <div class="collapse collapse-arrow border-2 border-black-600 rounded-md mb-5">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                    <strong>What is the DOM?</strong>
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        The DOM (Document Object Model) is a programming interface for HTML and XML documents.
+                        It represents the page structure as a tree of objects that can be modified with JavaScript.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="collapse collapse-arrow border-2 border-black-600 rounded-md mb-5">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    <strong>How can you access an element in the DOM?</strong>
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        You can use methods like `document.getElementById()`, `document.querySelector()`, or
+                        `document.getElementsByClassName()` to access elements.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="collapse collapse-arrow border-2 border-black-600 rounded-md mb-5">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    <strong>What is DOM manipulation?</strong>
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        DOM manipulation involves using JavaScript to dynamically change the structure, style, or content of
+                        a webpage.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="collapse collapse-arrow border-2 border-black-600 rounded-md mb-5">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                    <strong>What are DOM events?</strong>
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        DOM events are actions like clicks, keypresses, or loads that JavaScript can listen to and respond to
+                        using event listeners.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
