@@ -20,10 +20,12 @@ function toggleVisibility(activeSection, inactiveSection, activeButton, inactive
     inactiveSection.style.display = 'none';
     
     // Highlight active button
-    activeButton.classList.add('bg-green-500');
-    activeButton.classList.remove('border-gray-300', 'text-gray-700');
-    inactiveButton.classList.add('border-gray-300', 'text-gray-700');
-    inactiveButton.classList.remove('bg-green-500');
+    activeButton.classList.add("bg-green-500", "text-white");
+    activeButton.classList.remove("bg-green-400");
+
+    // Remove green background from inactive button
+    inactiveButton.classList.remove("bg-green-500", "text-white");
+    inactiveButton.classList.add("border-gray-300", "text-gray-700");
 }
 
 // Add donation to history
